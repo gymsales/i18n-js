@@ -29,7 +29,7 @@ module I18n
     # Export translations to JavaScript, considering settings
     # from configuration file
     def self.export
-      export_i18n_js
+      # export_i18n_js
 
       translation_segments.each(&:save!)
     end
